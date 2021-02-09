@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  troposphere:
+    container_name: troposphere
+    build: .
+    volumes:
+      - ./example:/troposphere
+    command: fab -l
+    environment:
+      AWS_DEFAULT_REGION=us-west-2
+      AWS_ACCESS_KEY_ID=
+      AWS_SECRET_ACCESS_KEY=

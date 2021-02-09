@@ -1,0 +1,4 @@
+troposphere==2.6.3
+Fabric3==1.14.post1
+awscli==1.19.2
+boto==2.49.0
